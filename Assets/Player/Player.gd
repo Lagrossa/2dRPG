@@ -3,9 +3,13 @@ extends KinematicBody2D
 const MAX_SPEED = 90
 const ACCELERATION = 500
 const FRICTION = 500
+
 var velocity = Vector2.ZERO
 
+var animationPlayer = null
+
 func _ready():
+	animationPlayer = $AnimationPlayer
 	print("Solus")
 
 func _physics_process(delta):
