@@ -1,8 +1,8 @@
 extends KinematicBody2D
 
-const MAX_SPEED = 400
-const ACCELERATION = 200
-const FRICTION = 200
+const MAX_SPEED = 90
+const ACCELERATION = 500
+const FRICTION = 500
 var velocity = Vector2.ZERO
 
 func _ready():
