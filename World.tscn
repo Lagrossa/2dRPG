@@ -33,4 +33,5 @@ shape = SubResource( 1 )
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2( -2, 0 )
 polygon = PoolVector2Array( 39, 18, 1, 40, -1, 126, 0, 173, -1, 180, 14, 180, 54, 181, 66, 163, 83, 178, 106, 180, 172, 181, 189, 142, 238, 150, 302, 100, 296, 56, 296, 15, 307, -2, 330, -3, 346, 100, 297, 204, 175, 257, 108, 227, 85, 257, 61, 205, -23, 218, -42, 88, -23, 6 )
