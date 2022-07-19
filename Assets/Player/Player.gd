@@ -6,10 +6,9 @@ const FRICTION = 500
 
 var velocity = Vector2.ZERO
 
-var animationPlayer = null
+onready var animationPlayer = $AnimationPlayer
 
 func _ready():
-	animationPlayer = $AnimationPlayer
 	print("Solus")
 
 func _physics_process(delta):
