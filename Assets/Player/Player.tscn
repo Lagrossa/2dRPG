@@ -418,4 +418,6 @@ parameters/Run/blend_position = Vector2( 0, 0 )
 position = Vector2( -1, -4 )
 shape = SubResource( 36 )
 
+[node name="Position2D" type="Position2D" parent="."]
+
 [editable path="Hitbox"]
