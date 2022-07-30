@@ -37,6 +37,18 @@ tracks/1/keys = {
 "method": "set_state_move"
 } ]
 }
+tracks/2/type = "value"
+tracks/2/path = NodePath("HitboxPivot:rotation_degrees")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 90.0 ]
+}
 
 [sub_resource type="Animation" id=26]
 resource_name = "AttackLeft"
@@ -66,6 +78,18 @@ tracks/1/keys = {
 "args": [  ],
 "method": "set_state_move"
 } ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("HitboxPivot:rotation_degrees")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 180.0 ]
 }
 
 [sub_resource type="Animation" id=27]
@@ -97,6 +121,18 @@ tracks/1/keys = {
 "method": "set_state_move"
 } ]
 }
+tracks/2/type = "value"
+tracks/2/path = NodePath("HitboxPivot:rotation_degrees")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
+}
 
 [sub_resource type="Animation" id=28]
 resource_name = "AttackUp"
@@ -126,6 +162,18 @@ tracks/1/keys = {
 "args": [  ],
 "method": "set_state_move"
 } ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("HitboxPivot:rotation_degrees")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 270.0 ]
 }
 
 [sub_resource type="Animation" id=6]
@@ -206,6 +254,18 @@ tracks/0/keys = {
 "transitions": PoolRealArray( 1 ),
 "update": 0,
 "values": [ 2 ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("HitboxPivot:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.0 ]
 }
 
 [sub_resource type="Animation" id=10]
